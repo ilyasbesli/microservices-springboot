@@ -10,8 +10,6 @@ import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
 
-import net.bytebuddy.asm.Advice.This;
-
 @Component
 public class ZuulLoggingFilter extends ZuulFilter{
 	
